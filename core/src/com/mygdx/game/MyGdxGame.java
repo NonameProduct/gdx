@@ -65,7 +65,7 @@ public class MyGdxGame extends ApplicationAdapter {
 // Set its world position
         groundBodyDef.position.set(new Vector2(0.5f, -0.5f));
 
-// Create a body from the defintion and add it to the world
+// Create a body from the definition and add it to the world
         Body groundBody = world.createBody(groundBodyDef);
 
 // Create a polygon shape
